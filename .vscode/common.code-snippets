@@ -1,0 +1,99 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	//  "scope": "javascript,typescript",
+	//  "prefix": "log",
+	//  "body": [
+	//    "console.log('$1');",
+	//    "$2"
+	//  ],
+	//  "description": "Log output to console"
+	// }
+	"flex-center": {
+	  "prefix": "flc",
+	  "body": [
+		"display: flex",
+		"align-items: center",
+		"justify-content: center"
+	  ],
+	  "description": "flex-center"
+	},
+	"flex": {
+	  "prefix": "fl",
+	  "body": [
+		"display: flex",
+	  ],
+	  "description": "flex"
+	},
+	"absl": {
+	  "prefix": "absl",
+	  "body": [
+		"position: absolute",
+		"content: \"\"",
+		"top: 0",
+		"left: 0"
+	  ],
+	  "description": "absl"
+	},
+	"absr": {
+	  "prefix": "absr",
+	  "body": [
+		"position: absolute",
+		"content: \"\"",
+		"top: 0",
+		"right: 0"
+	  ],
+	  "description": "absr"
+	},
+	"absi": {
+	  "prefix": "absi",
+	  "body": [
+		"position: absolute",
+		"content: \"\"",
+		"top: 0",
+		"left: 0",
+		"background: url(../img/$1) $2 / cover no-repeat",
+		"width: $3",
+		"height: $4"
+	  ],
+	  "description": "absi"
+	},
+	"cz": {
+	  "prefix": "cz",
+	  "body": [
+		"width: $1",
+		"height: $2"
+	  ],
+	  "description": "cz"
+	},
+	"fig": {
+	  "prefix": "fig",
+	  "body": [
+		"figure.$1",
+		"  img.md(src=imgPC+\"\" width=\"\" height=\"\" loading=\"lazy\" alt=\"\")",
+		"  img.sm(src=imgSP+\"\" width=\"\" height=\"\" loading=\"lazy\" alt=\"\")"
+	  ],
+	  "description": "fig"
+	},
+	"clg": {
+	  "prefix": "clg",
+	  "body": [
+		"console.log($1)"
+	  ],
+	  "description": "console"
+	},
+	"lst": {
+	  "prefix": "lst",
+	  "body": [
+		"list-style-type: none",
+		"padding-left: 0"
+	  ],
+	  "description": "list-style-type: none"
+	}
+  }
